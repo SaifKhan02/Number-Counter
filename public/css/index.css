@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin:  0;
+}
+
+.number-counter{
+    background-image: url(../img/abstract-geometric-technology-digital-hi-tech-concept_41814-447.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main{
+ position:absolute;
+ width: 500px;
+ top: 25%;
+ left: 33%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #3a3d3d25 0%, #c5c3c498 100%);
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+
+#heading{
+    font-style:  italic;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* @media only screen and (min-width:600px) and (max-width:800px){
+    .main{
+        left: 20%;
+        padding: 0 20px;
+        width: initial;
+    }
+    .number-counter{
+        height: 120vh;
+    }
+    #heading{
+        font-size: 20px;
+    }
+} */
+@media only screen and (max-width:600px){
+    
+    .main{
+        position: initial;
+        padding: 0 20px;
+        width:100%;
+        /* margin: 0 auto; */
+        margin-top: 120px;
+    }
+    .number-counter{
+        height: 100.01vh;
+    }
+    #heading{
+        font-size: 28px;
+        text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    }
+}
+
+
